@@ -1,15 +1,32 @@
-# Network_Basic
+# Network Basics
 
-A computer network is a system in which multiple computers are connected to each other to share information and resources.
+## What is it?
 
+A computer network is a collection of interconnected devices that communicate and share resources. Networks enable data transfer between computers, servers, printers, and other devices.
 
-# Types_of_Network
+## Key Concepts
 
-- LAN (Local Area Network)
-- WAN (Wide Area Network)
-- MAN (Metropolitan Area Network)
+* LAN (Local Area Network)
+* WAN (Wide Area Network)
+* MAN (Metropolitan Area Network)
+* Network Topology
+* Client-Server Model
 
-# Why Networking Matters in VAPT
-Understanding network communication helps identify attack surfaces, misconfigurations, and vulnerabilities.
+## Example
 
+A company office uses a LAN to connect employee computers, printers, and servers for resource sharing.
 
+## VAPT Relevance
+
+* Understanding network architecture
+* Identifying attack surfaces
+* Mapping communication paths
+
+## Tools
+
+* Nmap
+* Wireshark
+
+## Summary
+
+Network Basics provide the foundation for understanding how devices communicate. Every VAPT professional must understand networking before performing security assessments.
