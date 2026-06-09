@@ -1,35 +1,34 @@
-# Osi Model
+# OSI Model
 
-OSI stands for Open System Interconnection is a reference model that describes how information from a 
-software application in one computer moves through a physical 
-medium to the software application in another computer
+## What is it?
 
-## Layer Of Osi Model
-(All People Should Try New Domino's Pizza)
+The OSI (Open Systems Interconnection) Model is a conceptual framework that explains how data travels across a network through seven layers.
 
-### 1. Physical Layer
-- is nothing but establish a physical connection between devices.
-  Common physical layer devices are Hub,Repeater,Modem,Cables.
+## Key Concepts
 
-### 2. Data Link Layer 
-- it focuses on sending data between two nodes on the same network segment.
-  Switches and Bridges are common devices.
+* Physical Layer
+* Data Link Layer
+* Network Layer
+* Transport Layer
+* Session Layer
+* Presentation Layer
+* Application Layer
 
-### 3. Network Layer 
-- is sending data between different network. 
-  Ex: Internet Protocol, Internet Control Message Protocol,VPN protocols such as IPSec and SSL/TLS VPN.
+## Example
 
-### 4. Transport Layer
-- It enables end-to-end communication between running applications on different hosts & can support various functions like flow control, segmentation, and error correction.
-  Examples of layer 4 are Transmission Control Protocol (TCP) and User Datagram Protocol (UDP)
+When opening a website, data passes through all seven OSI layers before reaching the destination.
 
-### 5. Session Layer 
-- is responsible for the establishment of connections, management of connections, terminations of sessions between two devices .
-  Examples: Network File System (NFS) and Remote Procedure Call (RPC).
+## VAPT Relevance
 
-### 6. Presentation Layer 
-- also called  Translation layer. The data from the application layer is extracted here and manipulated as per the required format to transmit over the network.
+* Understanding attack locations
+* Network troubleshooting
+* Vulnerability classification
 
-### 7. Application Layer 
-- provides network services directly to end-user applications. 
-  Examples of Layer 7 protocols are HTTP, FTP, DNS, POP3, SMTP, and IMAP.
+## Tools
+
+* Wireshark
+* TCPDump
+
+## Summary
+
+The OSI Model helps security professionals understand network communication and analyze attacks occurring at different layers.
