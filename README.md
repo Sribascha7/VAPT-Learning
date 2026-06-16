@@ -32,4 +32,3 @@ This repository documents my hands-on learning path in **Vulnerability Assessmen
 - PortSwigger Web Security Academy
 - OWASP Juice Shop
 
-## 📁 Repository Structure
